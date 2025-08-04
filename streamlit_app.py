@@ -118,7 +118,7 @@ def main():
         sns.barplot(x=sim_user_corr.values, y=sim_user_corr.index, ax=ax)
         ax.set_xlabel("상관계수")
         ax.set_ylabel("UserID")
-        ax.set_title("Top-N 유사 사용자 상관계수")
+        ax.set_title("Top-N sang")
         st.pyplot(fig)
 
 
